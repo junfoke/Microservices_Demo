@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fsUnxC0YzqfEar2hr3CQS5714xHMC7BCMHwixGC5MXQ=",
+  "Source": "Micro.Services.ShoppingCartAPI",
+  "BasePath": "_content/Micro.Services.ShoppingCartAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

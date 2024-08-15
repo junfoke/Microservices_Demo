@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MlDABDoEeqhbvK3664tMKDc+clh6ZGHm8BqdLf8APVU=",
+  "Source": "Micro.Services.ProductAPI",
+  "BasePath": "_content/Micro.Services.ProductAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

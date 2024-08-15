@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "q5iLKRKOPi7rVzzX22BbA5mApTuV7VszcQ2FqGHrDDI=",
+  "Source": "Micro.Services.AuthAPI",
+  "BasePath": "_content/Micro.Services.AuthAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

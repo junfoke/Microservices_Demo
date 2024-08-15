@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qoxprh8zT5ihCVYzKepik1irZ3WBNvxF+aIptGEljAM=",
+  "Source": "Micro.Services.OrderAPI",
+  "BasePath": "_content/Micro.Services.OrderAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

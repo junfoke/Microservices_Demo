@@ -1,0 +1,43 @@
+﻿@model OrderHeaderDto
+<div class="card shadow border-0 mt-4">
+	<div class="card-header bg-secondary bg-gradient ml-0 py-3">
+		<div class="row">
+			<h1 class="text-white">Order Details</h1>
+		</div>
+	</div>
+
+
+	<div>
+		<h3>Name: @ViewBag.OrderDetails.Name</h3> 
+		<h3>Email: @ViewBag.OrderDetails.Email</h3>
+		<h3>Phone: @ViewBag.OrderDetails.Phone</h3>
+		<h3>Order date: @ViewBag.OrderDetails.OrderTime</h3>
+		<h3>Status: @ViewBag.OrderDetails.Status</h3>
+		<h3>Coupon code: @ViewBag.OrderDetails.CouponCode</h3>
+		<h3>Discount: @ViewBag.OrderDetails.Discount</h3>
+		<h3>Order total: @ViewBag.OrderDetails.OrderTotal</h3>
+	</div>
+	<div class="card-body p-4">
+		<table id="tblData" class="table table-bordered table-striped pt-3" style="width:100%">
+			<thead>
+				<tr>
+					<th>Product Name</th>
+					<th>Price</th>
+					<th>Count</th>
+					<th></th>
+				</tr>
+			</thead>
+
+			<tbody>
+				@foreach (var orderObj in ViewBag.OrderDetails.OrderDetails)
+			{
+			<tr>
+						<td>@orderObj.ProductName</td>
+						<td>@orderObj.Price</td>
+						<td>@orderObj.Count</td>
+			</tr>
+			}
+			</tbody>
+		</table>
+	</div>
+</div>
